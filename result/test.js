@@ -1,3 +1,6 @@
 "use strict";
-let y = "Test";
-console.log(y);
+async function main() {
+    let x = { ...{ name: "john" }, ...{ pos: [1, 2, 3] } };
+    console.log(x);
+}
+main();
