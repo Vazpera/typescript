@@ -1,11 +1,11 @@
 export interface isVec3 {
-    e: number[];
+    e: [number, number, number];
     /* Getters */
     get x(): number;
     get y(): number;
     get z(): number;
     get normalized(): isVec3;
-    get length(): number
+    get length(): number;
     /* Setters */
     set x(i: number);
     set y(i: number);

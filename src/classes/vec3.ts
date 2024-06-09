@@ -1,7 +1,7 @@
 import { isVec3 } from "../interfaces/vec3";
 
 export class Vec3 implements isVec3 {
-    e: number[];
+    e: [number, number, number];
     constructor(x: number, y: number, z: number) {
         this.e = [x, y, z];
     }
